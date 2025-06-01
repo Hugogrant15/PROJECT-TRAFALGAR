@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+/* resets  */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+/* resets end  */
+
+/* header section starts  */
+header {
+  margin: 30px 150px;
+}
+
+body {
+  position: relative;
+}
+
+.headerElement {
+  position: absolute;
+  left: -10px;
+  top: 120px;
+}
+
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  gap: 30px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1f15344f;
+}
+
+.Homeblack {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f1534;
+}
+
+/* header section ends  */
+
+/* hero section starts  */
+
+.herosection {
+  margin: 130px 150px;
+}
+
+.heroSTN1 h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.heroSTN1 p {
+  font-size: 21px;
+  font-weight: 300;
+  color: #7d7987;
+}
+
+.heroBTN {
+  border: 1px solid #458ff6;
+  background: #458ff6;
+  border-radius: 50px;
+  width: 200px;
+  height: 56px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.heroBTN:hover {
+  background: #fff;
+  color:#458ff6;
+  border-radius: 50px;
+}
+
+.heroimage {
+  position: absolute;
+  top: 90px;
+  left: 650px;
+}
+
+/* herp section ends here  */
+
+/* our services section starts here  */
+
+.Ourservicessection {
+  margin: 20px 130px;
+}
+
+.servicestop {
+  text-align: center;
+}
+
+.Servicestop3,
+.Servicesbottom3 {
+  display: flex;
+  gap: 30px;
+}
+
+.Servicesbottom3 {
+  margin-top: 20px;
+}
+
+.Servicestop3 {
+  margin-top: 50px;
+}
+
+.servicestop h2,
+.midsecWriteUP h2,
+.sectNN2 h2, .ArticleTop h4 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.servicestop p,
+.midsecWriteUP p,
+.sectNN2 p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #7d7987;
+}
+
+.STop1 {
+  box-shadow: 10px 10px 30px #E5E9F666;
+  color: #fff;
+  background: #fff;
+  width: 250px;
+  height: 240px;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+
+.STop1 h3 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.STop1 p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #7d7987;
+  line-height: 28px;
+}
+
+.BTNoursec {
+  margin: 5% 40%;
+}
+
+.ourlrnBTN,
+.midsecBTNN, .midSCETBTnn, .Atriclebtn {
+  border: 1.4px solid #458ff6;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  background: #fff;
+  color: #458ff6;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+
+.ourlrnBTN:hover, .midSCETBTnn:hover, .Atriclebtn:hover {
+  background: #458ff6;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.midSCETBTnn::after {                 /*from mid section 2*/
+  content: '↓';
+  position: absolute;
+  font-size: 20px;
+  font-weight: 800;
+  top: 10px;
+  right: 30px;
+  transition: 0.3s ease;
+}
+
+
+/* mdisection1 starts here  */
+
+.midsection1 {
+  display: flex;
+  margin: 13% 7%;
+  gap: 10%;
+}
+
+.middBTTN, .secTNNbTn {
+  margin-top: 40px;
+}
+
+.midsecBTNN:hover {
+  background: #458ff6;
+  color: #fff;
+  border-radius: 50px;
+}
+/* mid section1 end here */
+
+/* midsection2 start header starts */
+
+.midSCETBTnn {
+   position: relative; 
+}
+
+.midSCETBTnn:active::after {          /*from mid section 2*/
+  outline: none;
+  padding-top: 10px;
+}
+
+.midSCETBTnn:active {                   /*from mid section 2*/
+  padding-top: 10px;
+}
+
+
+.midsectioN2 {
+  display: flex;
+  margin: 13% 10%;
+  gap: 10%;
+}
+
+.vectorIMG {
+    width: 15.43;
+    height: 8.82;
+    margin-right: 80px;
+}
+/* midsection 2 ends header */
+
+/* travalga testimonial starts here  */
+
+.travalgaTestimonial {
+     margin: 13% 5%;
+    border: 2px solid #67C3F3;
+    background: linear-gradient(90deg,#5A98F2,#5A98F2,#67C3F3);
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+}
+
+.travTOP {
+    text-align: center;
+}
+
+.travTopp {
+    display: flex;
+    gap: 2%;
+    padding: 5% 0 0 15%  ;
+}
+
+.travTOP h5 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.travBody {
+  position: relative;
+}
+
+.grouplogo2 {
+    position: absolute;
+    right: -5%;
+    top: -90%;
+}
+
+.travPtag {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.travTags p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.travTags span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* travalga testimonial ends here  */
+
+/* Article section starts here */
+
+.articlesect {
+  margin: 0px 16%;
+}
+
+.articletop3{
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.artimG {
+  margin-bottom: 0;
+}
+
+.ArticleTop {
+  text-align: center;
+}
+
+.CARD1 {
+  width: 370px;
+  height: 450px;
+  box-shadow: 10px 10px 30px #fff;
+  background-color: #fff;
+}
+
+.CARD1 h5 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0; 
+}
+
+.CARD1 p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #7d7987;
+  margin-bottom: 0;
+}
+
+.Anchorarticle {
+  margin-top: 30px;
+}
+
+.sideArrow{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(64, 137, 237, 1);
+  position: relative;
+}
+
+.sideArrow::after {
+   content: '→';
+  position: absolute;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(64, 137, 237, 1);
+  top: -5px;
+  left: 90px;
+  transition: 0.3s ease;
+}
+
+.ATRBTN {
+  margin: 8% 0 0 37%;
+}
+
+/* articel section ends here  */
+
+/* foter section starts here  */
+
+.footersection {
+  display: flex;
+  gap: 20%;
+  position: relative;
+  border: 2px solid #67C3F3;
+  background: linear-gradient(90deg,#5A98F2,#5A98F2,#67C3F3);
+  border-radius: 24px;
+  height: 370px;
+  padding: 120px 0 0 120px;
+  margin-top: 15%;
+
+}
+
+.footerRSEC {
+  display: flex;
+  position: absolute;
+  top: 95px;
+  left: 45%;
+  gap: 130px;  
+}
+
+.footerleft p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.footerspan {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 90%;
+}
+
+.foorteRIGHT h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.foorteRIGHT p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.fooTERPNG {
+  color: #fff;
+}
+
+.IMGgrp1 {
+  position: absolute;
+  top: -78px;
+  right: 80px;
+}
+
+.IMGgrp2 {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+/* footer section emds here  */
+
+.MENU {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+
+  .MENU {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-right: 67px; */
+    
+  }
+  
+  .mobileview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header {
+    margin: 0;
+  }
+
+  br {
+    display: none;
+  }
+
+  .herosection {
+  margin: 0;
+}
+
+.heroSTN1 h2 {
+  font-size: 23px;
+}
+
+br {
+  display: none;
+}
+
+.heroSTN1 p {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.heroBTN {
+  width: 100%;
+}
+
+/* oue services sction  */
+
+ .Ourservicessection {
+  margin: 0;
+}
+
+.servicestop img {
+  display: none;
+}
+
+.servicestop {
+  text-align: left;
+}
+
+.Servicestop3 {
+  margin-top: 23px;
+}
+
+.Servicestop3,
+.Servicesbottom3 {
+  display: block;
+  gap: 30px;
+}
+
+.STop1 {
+  padding: 0 0 13px;
+  width: 80%;
+  margin: 0 0 30px 40px;
+}
+
+
+.BTNoursec {
+  margin: 0;
+}
+
+.ourlrnBTN {
+  width: 100%;
+}
+
+.missecIMG img, .heroimage img, .midSecIMGG img {
+  display: none;
+}
+
+
+.midsection1, .midsectioN2 {
+  display: flex;
+  margin: 0;
+  gap: 0;
+}
+
+.travalgaTestimonial {
+  margin: 6% 0%;
+  width: 100%;
+  height: 450px;
+}
+
+.travTopp {
+   padding: 0;
+}
+
+.travPtag {
+  top: 111%;
+  left: 3%;
+  font-size: 17px;
+}
+
+.articlesect {
+  margin: 0;
+}
+
+.articletop3{
+  display: block;
+  /* margin-top: 40px; */
+}
+
+.ATRBTN {
+  margin: 0;
+}
+
+.Atriclebtn {
+  width: 100%;
+}
+
+.footersection {
+  display: block;
+  padding: 0;
+  margin-top: 19%;
+  height: 500px;
+}
+
+.footerRSEC {
+  top: 177px;
+  left: 4%;
+  gap: 20px;
+}
+
+.IMGgrp1 {
+  top: -53px;
+  right: 5px;
+}
+
+.IMGgrp2 {
+  bottom: -65px;
+  left: 10px;
+}
+
+
+
+}
+
+
+
+ 
