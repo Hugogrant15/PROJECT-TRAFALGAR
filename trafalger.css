@@ -109,6 +109,14 @@ li {
 
 .Ourservicessection {
   margin: 20px 130px;
+  position: relative;
+}
+
+.ourSERVelement {
+  position: absolute;
+  top: 410px;
+  right: -45px;
+  z-index: -100;
 }
 
 .servicestop {
@@ -185,8 +193,6 @@ li {
   font-weight: 700;
 }
 
-
-
 .ourlrnBTN:hover, .midSCETBTnn:hover, .Atriclebtn:hover {
   background: #458ff6;
   color: #fff;
@@ -222,6 +228,7 @@ li {
   color: #fff;
   border-radius: 50px;
 }
+
 /* mid section1 end here */
 
 /* midsection2 start header starts */
@@ -251,6 +258,7 @@ li {
     height: 8.82;
     margin-right: 80px;
 }
+
 /* midsection 2 ends header */
 
 /* travalga testimonial starts here  */
@@ -262,6 +270,14 @@ li {
     width: 1120px;
     height: 425px;
     border-radius: 24px;
+    position: relative;
+}
+
+.Testielement {
+  position: absolute;
+  bottom: 0;
+  left: -45px;
+  z-index: -100;
 }
 
 .travTOP {
@@ -318,6 +334,21 @@ li {
 
 .articlesect {
   margin: 0px 16%;
+  position: relative;
+}
+
+.RTimGGG {
+  position: absolute;
+  right: -200px;
+  top: 50px;
+  z-index: -100;
+}
+
+.Articlelememt {
+  position: absolute;
+  top: 55px;
+  right: 770px;
+  z-index: -100;
 }
 
 .articletop3{
@@ -337,7 +368,7 @@ li {
 .CARD1 {
   width: 370px;
   height: 450px;
-  box-shadow: 10px 10px 30px #fff;
+  box-shadow: 10px 10px 30px #E5E9F666;
   background-color: #fff;
 }
 
@@ -395,7 +426,6 @@ li {
   height: 370px;
   padding: 120px 0 0 120px;
   margin-top: 15%;
-
 }
 
 .footerRSEC {
@@ -439,11 +469,12 @@ li {
   position: absolute;
   top: -78px;
   right: 80px;
+  z-index: -100;
 }
 
 .IMGgrp2 {
   position: absolute;
-  bottom: 0;
+  bottom: -15px;
   left: 10px;
 }
 
@@ -455,6 +486,16 @@ li {
 
 
 @media screen and (max-width: 600px) {
+
+  body {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .headerElement {
+  left: 2px;
+}
+
   nav ul {
     display: none;
   }
@@ -463,8 +504,6 @@ li {
     display: block;
     font-size: 18px;
     font-weight: bold;
-    /* margin-right: 67px; */
-    
   }
   
   .mobileview {
@@ -483,10 +522,11 @@ li {
 
   .herosection {
   margin: 0;
+  padding-top: 315px;
 }
 
 .heroSTN1 h2 {
-  font-size: 23px;
+  font-size: 28px;
 }
 
 br {
@@ -502,10 +542,24 @@ br {
   width: 100%;
 }
 
+.heroimage {
+  top: 90px;
+  left: 10px;
+}
+
+.illustrationpng {
+  width: 353px;
+}
+
+
 /* oue services sction  */
 
  .Ourservicessection {
   margin: 0;
+}
+
+.ourSERVelement {
+  right: 12px;
 }
 
 .servicestop img {
@@ -528,7 +582,7 @@ br {
 
 .STop1 {
   padding: 0 0 13px;
-  width: 80%;
+  width: 88%;
   margin: 0 0 30px 40px;
 }
 
@@ -541,15 +595,31 @@ br {
   width: 100%;
 }
 
-.missecIMG img, .heroimage img, .midSecIMGG img {
-  display: none;
-}
-
-
 .midsection1, .midsectioN2 {
-  display: flex;
+  display: block;
   margin: 0;
   gap: 0;
+}
+
+.midsectioN2 {
+  padding-top: 281px;
+  position: relative;
+}
+
+.midSecIMGG {
+  position: absolute;
+  top: 0;
+  margin-top: 40px;
+}
+
+.MIDimgillustration {
+  width: 350px;
+  margin-top: 40px;
+}
+
+.Mid2illustration {
+  width: 350px;
+  /* margin-top: 20px; */
 }
 
 .travalgaTestimonial {
@@ -558,12 +628,24 @@ br {
   height: 450px;
 }
 
+.Testielement {
+  left: 6px;
+}
+
+.grouplogo2 {
+  top: -236%;
+}
+
 .travTopp {
-   padding: 0;
+  padding: 0;
+}
+
+.travTOP h5 {
+  font-size: 22px;
 }
 
 .travPtag {
-  top: 111%;
+  top: 132%;
   left: 3%;
   font-size: 17px;
 }
@@ -572,13 +654,33 @@ br {
   margin: 0;
 }
 
+.RTimGGG {
+  right: -12px;
+}
+
 .articletop3{
   display: block;
   /* margin-top: 40px; */
 }
 
+.ArticleTop h4, .midsecWriteUP h2, .sectNN2 h2 {
+  font-size: 24px;
+}
+
+.artimG {
+  width: 100%;
+}
+
 .ATRBTN {
   margin: 0;
+}
+
+.CARD1 {
+  width: 100%;
+}
+
+.CARD1 h5 {
+  font-size: 16px;
 }
 
 .Atriclebtn {
@@ -587,14 +689,15 @@ br {
 
 .footersection {
   display: block;
-  padding: 0;
+  padding: 10px;
   margin-top: 19%;
-  height: 500px;
+  height: 919px;
 }
 
 .footerRSEC {
-  top: 177px;
-  left: 4%;
+  display: block;
+  top: 177px; 
+  left: 36%;
   gap: 20px;
 }
 
